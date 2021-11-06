@@ -18,6 +18,10 @@ from django.urls import path, include
 from django.conf.urls.static import static
 from django.conf import settings
 
+"""comment to confirm i'm pushing updates
+testing
+"""
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('tutorials.urls')),
